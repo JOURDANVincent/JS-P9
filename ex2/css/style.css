@@ -1,0 +1,13 @@
+[data-inline-tweet] p {
+    text-decoration: none;
+    color: #000;
+  }
+  [data-inline-tweet] p span {
+    border-bottom: 1px dotted rgb(0,172,237);
+    font-style: italic;
+    margin-right: 10px;
+  }
+  [data-inline-tweet] p:hover span {
+    background-color: rgba(0,172,237,0.1);
+    color: rgb(0,172,237);
+  }
